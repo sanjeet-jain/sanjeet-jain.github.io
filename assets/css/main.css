@@ -5090,7 +5090,7 @@ a img {
 
 @media only screen and (min-width: 550px) {
   .user-details .profile-pic {
-    width: 10%;
+    width: 20%;
   }
 }
 
@@ -5180,6 +5180,15 @@ a img {
   width: 100px; /* Adjust width as needed */
   height: 100px; /* Adjust height as needed */
   background-image: url("https://logowik.com/content/uploads/images/google-bigquery6102.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.upstash-logo {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-image: url("https://logowik.com/content/uploads/images/upstash3896.logowik.com.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
