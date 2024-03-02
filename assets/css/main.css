@@ -5164,3 +5164,23 @@ a img {
   padding: 1%;
   margin-top: 1%;
 }
+
+.gcp-logo {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-image: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gcp-bq-logo {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  background-image: url("https://logowik.com/content/uploads/images/google-bigquery6102.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

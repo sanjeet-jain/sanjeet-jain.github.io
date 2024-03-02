@@ -66,6 +66,7 @@
         <div class="header-links">
           <a class="link" href="#about" data-scroll>About Me</a>
           <a class="link" href="#projects" data-scroll>Projects</a>
+          <a class="link" href="#tech" data-scroll>TechStack</a>
         </div>
       </div>
       <a class="down" href="#about" data-scroll
@@ -107,7 +108,7 @@
       </div>
 
       <!-- User Specifics -->
-      <div class="user">
+      <div class="user" id="tech">
         <!-- Technology Stack #1: Languages -->
         <div class="tech">
           <h2>Languages</h2>
@@ -139,9 +140,7 @@
           <i class="devicon-html5-plain-wordmark colored"></i>
           <i class="devicon-css3-plain-wordmark colored"></i>
           <i class="devicon-nextjs-original-wordmark colored"></i>
-
-          <i class="devicon-tailwindcss-original colored"></i>
-
+          <i class="devicon-tailwindcss-original colored"> </i>
           <p>
             My preferred technologies for front-end web development and
             component design.
@@ -175,17 +174,12 @@
           <h2>Back-End</h2>
           <i class="devicon-oracle-original colored"></i>
           <i class="devicon-mongodb-plain-wordmark colored"></i>
-          <img
-            height="auto"
-            width="40%"
-            style="filter: brightness(109%) contrast(97%)"
-            src="./assets/icons/Google_BigQuery.svg"
-            alt="Google Cloud Platform"
-          />
 
           <i class="devicon-firebase-plain-wordmark colored"></i>
 
           <i class="devicon-redis-plain-wordmark colored"></i>
+          <i class="gcp-bq-logo"></i>
+
           <p>My preferred technologies for databases.</p>
         </div>
 
@@ -200,14 +194,7 @@
           <i class="devicon-azure-plain-wordmark colored"></i>
           <i class="devicon-vercel-original-wordmark colored"></i>
           <i class="devicon-heroku-plain-wordmark colored"></i>
-          <i
-            ><img
-              height="auto"
-              width="50%"
-              style="filter: brightness(109%) contrast(97%)"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/googlecloud/googlecloud-original-wordmark.svg"
-              alt="Google Cloud Platform"
-          /></i>
+          <i class="gcp-logo"></i>
 
           <p>
             My preferred cloud platforms for deployment and cloud computing.
@@ -238,6 +225,60 @@
       <div class="user-details">
         <h1>Featured Projects</h1>
       </div>
+
+      <!-- User Project #1: Summer 2019 Project Automated Traffic Control System -->
+      <div class="user-projects">
+        <div class="images-right">
+          <picture>
+            <img alt="Unigrow" src="./assets/img/jpg/unigrow.png" />
+          </picture>
+        </div>
+        <div class="contents" style="text-align: center">
+          <h3>UniGrow</h3>
+          <div>
+            <i class="devicon-visualstudio-plain colored"></i>
+
+            &nbsp;
+          </div>
+          <p style="text-align: justify">
+            My friends and I noticed a lack of information and resources at our
+            college (Stevens Institute of Technology ), so we created a web
+            platform to address this issue as part of our coursework. The
+            platform integrates with the college's Canvas System, allowing
+            students to access course information, share syllabi, ask questions,
+            and rate courses. Our goal is to foster a collaborative and
+            information-rich campus environment. UniGrow, our platform, serves
+            as more than just a tool; it's a gateway to unlocking your
+            potential. Seamlessly integrated with Canvas, it offers immediate
+            access to course details, supports real-time discussions, and
+            provides a database of peer-generated course ratings and reviews.
+            Join our dynamic community at UniGrow and achieve your academic
+            goals with ease.
+          </p>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://youtu.be/QUjIoq7GeRk"
+            >Youtube Walkthrough</a
+          >
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://unigrow-a732c2389a03.herokuapp.com/"
+            >Live Demo (Heroku)
+          </a>
+          <a
+            class="project-link"
+            target="_blank"
+            href="https://github.com/CS554-UniGrow/unigrow"
+          >
+            <i class="icon fa fa-github-alt" aria-hidden="true"></i>Github
+            Repo</a
+          >
+        </div>
+      </div>
+      <br />
+      <br />
       <!-- College Project #1: Web Page Project -->
       <div class="user-projects">
         <div class="images-left">
@@ -324,7 +365,8 @@
           >
         </div>
       </div>
-
+      <br />
+      <br />
       <!-- User Project #1: Summer 2019 Project Automated Traffic Control System -->
       <div class="user-projects">
         <div class="images-right">
@@ -369,7 +411,8 @@
           <!-- <a class="project-link" target="_blank" href="">Check it out!</a> -->
         </div>
       </div>
-
+      <br />
+      <br />
       <!-- User Project #2: Personal Project -->
       <div class="user-projects">
         <div class="images-left">
@@ -434,6 +477,8 @@
           >
         </div>
       </div>
+      <br />
+      <br />
     </section>
     <footer class="footer">
       <p>&copy; Sanjeet Jain, 2023</p>
